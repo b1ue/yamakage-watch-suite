@@ -1,0 +1,96 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <setting propertyKey="@Properties.ShowYamakageLabel" title="@Strings.ShowYamakageLabelTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ShowTimeColon" title="@Strings.ShowTimeColonTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ShowSeconds" title="@Strings.ShowSecondsTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.DimAod" title="@Strings.DimAodTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.AodDimLevel" title="@Strings.AodDimLevelTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.AodNormal</listEntry>
+            <listEntry value="1">@Strings.AodDim</listEntry>
+            <listEntry value="2">@Strings.AodVeryDim</listEntry>
+            <listEntry value="3">@Strings.AodUltraDim</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.GridOverlay" title="@Strings.GridOverlayTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.AodDotMask" title="@Strings.AodDotMaskTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.AodDotsOff</listEntry>
+            <listEntry value="1">@Strings.AodDotsSparse</listEntry>
+            <listEntry value="2">@Strings.AodDotsBalanced</listEntry>
+            <listEntry value="3">@Strings.AodDotsStrong</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.GridInAod" title="@Strings.GridInAodTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ShowStatusLine" title="@Strings.ShowStatusLineTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.WeatherStyling" title="@Strings.WeatherStylingTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.DemTerrain" title="@Strings.DemTerrainTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.HorizonGlow" title="@Strings.HorizonGlowTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.CelestialPath" title="@Strings.CelestialPathTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.CelestialUpperRim</listEntry>
+            <listEntry value="0">@Strings.CelestialLandscape</listEntry>
+            <listEntry value="2">@Strings.CelestialOff</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.TerrainDetail" title="@Strings.TerrainDetailTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.TerrainRegional</listEntry>
+            <listEntry value="1">@Strings.TerrainBalanced</listEntry>
+            <listEntry value="2">@Strings.TerrainLocal</listEntry>
+            <listEntry value="3">@Strings.TerrainEnhancedLocal</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SeasonalDetails" title="@Strings.SeasonalDetailsTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.SkyBackground" title="@Strings.SkyBackgroundTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SkyBackgroundBlack</listEntry>
+            <listEntry value="1">@Strings.SkyBackgroundDayTwilight</listEntry>
+            <listEntry value="2">@Strings.SkyBackgroundFullCycle</listEntry>
+            <listEntry value="3">@Strings.SkyBackgroundNightOnly</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SkyBrightness" title="@Strings.SkyBrightnessTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SkyBrightnessBright</listEntry>
+            <listEntry value="1">@Strings.SkyBrightnessMuted</listEntry>
+            <listEntry value="2">@Strings.SkyBrightnessDark</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SkyDither" title="@Strings.SkyDitherTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SkyDitherOff</listEntry>
+            <listEntry value="1">@Strings.SkyDitherFine</listEntry>
+            <listEntry value="2">@Strings.SkyDitherSmall</listEntry>
+            <listEntry value="3">@Strings.SkyDitherMedium</listEntry>
+            <listEntry value="4">@Strings.SkyDitherCoarse</listEntry>
+            <listEntry value="5">@Strings.SkyDitherAodSparse</listEntry>
+            <listEntry value="6">@Strings.SkyDitherAodBalanced</listEntry>
+            <listEntry value="7">@Strings.SkyDitherAodStrong</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.LargeCelestial" title="@Strings.LargeCelestialTitle">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>

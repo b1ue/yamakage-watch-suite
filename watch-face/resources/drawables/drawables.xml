@@ -1,0 +1,15 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="launcher_icon.svg" />
+    <bitmap id="AodDotsSparse0" filename="aod_dots_sparse_0.png" dithering="none" />
+    <bitmap id="AodDotsSparse1" filename="aod_dots_sparse_1.png" dithering="none" />
+    <bitmap id="AodDotsSparse2" filename="aod_dots_sparse_2.png" dithering="none" />
+    <bitmap id="AodDotsSparse3" filename="aod_dots_sparse_3.png" dithering="none" />
+    <bitmap id="AodDotsBalanced0" filename="aod_dots_balanced_0.png" dithering="none" />
+    <bitmap id="AodDotsBalanced1" filename="aod_dots_balanced_1.png" dithering="none" />
+    <bitmap id="AodDotsBalanced2" filename="aod_dots_balanced_2.png" dithering="none" />
+    <bitmap id="AodDotsBalanced3" filename="aod_dots_balanced_3.png" dithering="none" />
+    <bitmap id="AodDotsStrong0" filename="aod_dots_strong_0.png" dithering="none" />
+    <bitmap id="AodDotsStrong1" filename="aod_dots_strong_1.png" dithering="none" />
+    <bitmap id="AodDotsStrong2" filename="aod_dots_strong_2.png" dithering="none" />
+    <bitmap id="AodDotsStrong3" filename="aod_dots_strong_3.png" dithering="none" />
+</drawables>

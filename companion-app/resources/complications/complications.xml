@@ -1,0 +1,21 @@
+<complications xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <!--
+        Private companion channels: intentionally hidden from Face It and
+        third-party consumers. The YAMAKAGE watch face built with the same
+        developer key can subscribe to them.
+    -->
+    <complication
+        id="0"
+        access="private"
+        longLabel="@Strings.CompanionEventsLong"
+        shortLabel="@Strings.CompanionEventsShort"
+        icon="@Drawables.ComplicationIcon">
+    </complication>
+    <complication
+        id="1"
+        access="private"
+        longLabel="@Strings.CompanionTerrainLong"
+        shortLabel="@Strings.CompanionTerrainShort"
+        icon="@Drawables.ComplicationIcon">
+    </complication>
+</complications>

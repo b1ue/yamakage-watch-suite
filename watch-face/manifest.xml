@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="6918e830-8a08-4ef0-9cec-af613d586fa0"
+        version="0.1.47"
+        type="watchface"
+        name="@Strings.AppName"
+        entry="YamakageWatchFaceApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="4.2.0">
+        <iq:products>
+            <!-- Garmin groups fēnix 8 Pro 47/51 mm under this CIQ product target. -->
+            <iq:product id="fenix8pro47mm"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Positioning"/>
+            <iq:uses-permission id="ComplicationSubscriber"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

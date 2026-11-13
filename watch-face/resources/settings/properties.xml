@@ -1,0 +1,24 @@
+<properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <!-- Branding remains visible by default to preserve the original presentation. -->
+    <property id="ShowYamakageLabel" type="boolean">true</property>
+    <property id="ShowTimeColon" type="boolean">true</property>
+    <property id="ShowSeconds" type="boolean">true</property>
+    <property id="DimAod" type="boolean">true</property>
+    <property id="AodDimLevel" type="number">2</property>
+    <property id="GridOverlay" type="boolean">true</property>
+    <property id="GridInAod" type="boolean">false</property>
+    <property id="AodDotMask" type="number">3</property>
+    <property id="ShowStatusLine" type="boolean">true</property>
+    <property id="WeatherStyling" type="boolean">true</property>
+    <property id="DemTerrain" type="boolean">true</property>
+    <property id="HorizonGlow" type="boolean">true</property>
+    <!-- 1=upper perimeter is the preferred new default; old landscape mode remains. -->
+    <property id="CelestialPath" type="number">1</property>
+    <property id="TerrainDetail" type="number">1</property>
+    <property id="SeasonalDetails" type="boolean">true</property>
+    <property id="SkyBackground" type="number">0</property>
+    <property id="SkyDimGrid" type="boolean">false</property>
+    <property id="SkyDither" type="number">0</property>
+    <property id="SkyBrightness" type="number">1</property>
+    <property id="LargeCelestial" type="boolean">false</property>
+</properties>

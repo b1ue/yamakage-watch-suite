@@ -1,0 +1,33 @@
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/source/core/Config.mc
+*.der
+*.pem
+*.key
+
+# Garmin Connect IQ build output
+**/bin/
+*.iq
+*.prg
+
+# JavaScript dependencies and logs
+**/node_modules/
+*.log
+
+# Python tooling
+**/.venv/
+**/__pycache__/
+**/.pdm-build/
+**/.pdm-python
+**/.ruff_cache/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+**/.vscode/
+**/.idea/
+
+# Nested repository metadata must not be vendored
+**/.git/

@@ -1,0 +1,7 @@
+* text=auto
+*.fnt text
+*.mc text
+*.xml text
+*.jungle text
+*.png binary
+*.pptx binary
